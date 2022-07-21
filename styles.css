@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #272643;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  background-color: #e3f6f5;
+  border: solid #2c698d;
+  border-style: ridge;
+  border-radius: 2px;
+  border-width: thick;
+  font-family: Papyrus;
+  text-align: center;
+}
+
+.main {
+  background: #BAE8E8;
+  padding: 30px;
+  height: 100vh;
+  border-radius: 2px;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.app {
+  background: #BAE8E8;
+  padding: 30px;
+  height: 100vh;
+  font-style: arial;
+}
+
+.todo-list{
+  background: #e3f6f5;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+  
+}
+
+.todo{
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
